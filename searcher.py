@@ -4,9 +4,9 @@ import string
 
 
 #CHANGE DEPENDING ON LANGUAGE EDITION - will allow for separate directories for language editions
-lang = "Eng"
+lang = "english"
 
-search_criteria = "town "
+search_criteria = "United Kingdom"
 
 
 
@@ -16,11 +16,11 @@ search_criteria = "town "
             #if contain criteria copy to next dir
             #otherwise delete
 
-dir = os.fsencode("C:\\Users\\Admin\\Desktop\\Computer_Scence\\academic_shet\\Diss\\Articles{}".format(lang))
+dir = os.fsencode("C:\\Users\\Admin\\Desktop\\Computer_Scence\\academic_shet\\Diss\\Articles{}_Filtered".format(lang))
 
 
-path = "C:\\Users\\Admin\\Desktop\\Computer_Scence\\academic_shet\\Diss\\Articles{}_Filtered".format(lang)
-if not os.path.isdir("C:\\Users\\Admin\\Desktop\\Computer_Scence\\academic_shet\\Diss\\Articles{}_Filtered".format(lang)):
+path = "C:\\Users\\Admin\\Desktop\\Computer_Scence\\academic_shet\\Diss\\Articles{}_Filtered2".format(lang)
+if not os.path.isdir("C:\\Users\\Admin\\Desktop\\Computer_Scence\\academic_shet\\Diss\\Articles{}_Filtered2".format(lang)):
     os.mkdir(path)
 
 for i in os.listdir(dir):
@@ -28,14 +28,14 @@ for i in os.listdir(dir):
     count = 0
     found = False
     filename = os.fsdecode(i)
-    file = open("C:\\Users\\Admin\\Desktop\\Computer_Scence\\academic_shet\\Diss\\Articles{}\\{}".format(lang, filename), "r", encoding="utf-8", errors="replace")
+    file = open("C:\\Users\\Admin\\Desktop\\Computer_Scence\\academic_shet\\Diss\\Articles{}_Filtered\\{}".format(lang, filename), "r", encoding="utf-8", errors="replace")
     for ii in file:
         count = count + 1
         lines.append(ii)
         if search_criteria in ii:
-            print("found in "+filename)
+            #print("found in "+filename)
             found = True
-        if count > 25 and found == False:
+        if count > 65 and found == False:
             break
 
     if found == False:
@@ -44,7 +44,7 @@ for i in os.listdir(dir):
     elif found == True:
         #if criteria achieved write to different directory
 
-        file_new = open("C:\\Users\\Admin\\Desktop\\Computer_Scence\\academic_shet\\Diss\\Articles{}_Filtered\\{}".format(lang, filename), "a", encoding="utf-8")
+        file_new = open("C:\\Users\\Admin\\Desktop\\Computer_Scence\\academic_shet\\Diss\\Articles{}_Filtered2\\{}".format(lang, filename), "a", encoding="utf-8")
         for line in lines:
             file_new.write(line)
         file_new.close()

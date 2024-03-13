@@ -1,7 +1,7 @@
 import os
 
 #CHANGE DEPENDING ON LANGUAGE EDITION - will allow for separate directories for language editions
-lang = "english"
+lang = "vietnamese"
 
 #Where the articles should end up
 current_dir = "C:\\Users\\Admin\\Desktop\\Computer_Scence\\academic_shet\\Diss"
@@ -18,7 +18,7 @@ with open('data\\{}.xml'.format(lang), encoding='utf-8', errors="replace") as bi
     for line in bigfile:
             if "<page>" in line:
                  write = True
-            if n < 1577348 and write is True:
+            if n < 1342402 and write is True:
                 n = n + 1
                 write = False
                 continue
