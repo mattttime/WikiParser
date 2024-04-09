@@ -1,0 +1,272 @@
+Word Count:
+	-Vietnam
+		--English
+			Average Words: 5289.483286908078
+			Max Words: 46352
+			Average Words Without Outliers: 4257.098265895954
+			8 articles >40k
+			Main cluster thins out at >10k
+			Vast majority <7k
+		--Portuguese
+			Average Words: 5634.255033557047
+			Max Words: 63108
+			Average Words Without Outliers: 4456.077885952712
+			main cluster thins out <10k
+			Mostly <9ishk
+		--Vietnamese
+			Average Words: 1267.5428370786517
+			Max Words: 66858
+			Average Words Without Outliers: 995.2257025237158
+			All except 16 <20k
+			Main cluster thins out <10k
+	-Brazil
+		--English
+			Average Words: 5106.551569506726
+			Max Words: 56686
+			Average Words Without Outliers: 4475.958429561201
+			All but 2 <30k
+			Main cluster all <15k
+		--Portuguese
+			Average Words: 2707.6070610916977
+			Max Words: 133564
+			Average Words Without Outliers: 2234.60996457588
+			4 articles 120k<x<140k
+			all but 5 <100k
+			main cluster <40k
+			much more words than english
+		--Vietnamese
+			Average Words: 3493.9836065573772
+			Max Words: 28719
+			Average Words Without Outliers: 2418.793103448276
+			most articles <5k
+			very few articles
+	-UK
+		--English
+			Average Words: 9365.018062805535
+			Max Words: 494928
+			Average Words Without Outliers: 7651.493099652866
+			14 articles above 200k
+			most below 100k
+		--Portuguese
+			Average Words: 5070.970236299648
+			Max Words: 500864
+			Average Words Without Outliers: 3804.3948802302866
+			3 articles above 200k
+			most below 50k
+		--Vietnamese
+			Average Words: 3977.030253916802
+			Max Words: 261876
+			Average Words Without Outliers: 2764.8810307017543
+			8 articles above 100k
+			most below 20k
+Image Count:
+	-Vietnam
+		--English
+			One article with 4 images
+			rest have none
+		--Portuguese
+			Average Images: 0.052348993288590606
+			Max Images: 36
+			Average Images Without Outliers: 0.004032258064516129
+		--Vietnamese
+			One article with 2 images
+			Average Images: 0.00035112359550561797
+			rest have none
+	-Brazil
+		--English
+			One article with 2 images
+			rest have none
+		--Portuguese
+			Average Images: 0.0009639715628388962
+			Max Images: 40
+			9 with 1-5
+			41 may be false +ve
+		--Vietnamese
+			No images
+	-UK
+		--English
+			Average Images: 0.021294224873643217
+			Max Images: 138
+			Average Images Without Outliers: 0.0032335627228256363
+			1 with 38
+			2 articles with 11-20 images
+			15+ with 1-10
+		--Portuguese
+			1 article with 18
+			Average Images: 0.0027149321266968325
+			1 with 6
+			3 with 2
+		--Vietnamese
+			1 with 12
+			1 with 1
+			Average Images: 0.007023230686115613
+			rest 0
+Reference Count:
+	-Vietnam
+		--English
+			Average Ref: 285.516713091922
+			Max Ref: 4209
+			Average Ref Without Outliers: 223.191091954023
+			5 above 3k
+			majority below 500, with a lot 500-1500
+		--Portuguese
+			Average Ref: 420.03087248322146
+			Max Ref: 5688
+			Average Ref Without Outliers: 320.336578581363
+			majority below 500
+		--Vietnamese
+			max 5001
+			Average Ref: 49.485955056179776
+			Average Ref Without Outliers: 38.779576587795766
+			all but 4 <3k
+			all but 15 <1k
+	-Brazil
+		--English
+			Average Ref: 273.6883408071749
+			Max Ref: 2615
+			Average Ref Without Outliers: 215.14685314685315
+			most articles <250
+		--Portuguese
+			Average Ref: 137.41815709293718
+			Max Ref: 18160
+			Average Ref Without Outliers: 111.53774246729103
+			all but 5 <6k
+			majority below 4k
+		--Vietnamese
+			Average Ref: 163.7704918032787
+			Max Ref: 2490
+			Average Ref Without Outliers: 125.0
+			all but 3 <500
+			most <150
+	-UK
+		--English
+			Average Ref: 429.53475847211865
+			Max Ref: 20640
+			Average Ref Without Outliers: 339.308231913455
+			5 above 15k
+			most <2.5k
+		--Portuguese
+			Average Ref: 306.51935646053295
+			Max Ref: 32172
+			Average Ref Without Outliers: 216.84863701578192
+			all else <16k
+			most below 2.5k
+		--Vietnamese
+			Average Ref: 149.49378714208535
+			Max Ref: 7470
+			Average Ref Without Outliers: 104.81544359255203
+			6 above 6k
+			most below 500
+Internal Links:
+	-Vietnam
+		--English
+			Average Internal: 94.09052924791087
+			Max Internal: 2508
+			Average Internal Without Outliers: 75.93758865248228
+			5 >1k
+			most <250
+		--Portuguese
+			Average Internal: 85.81342281879195
+			Max Internal: 1725
+			Average Internal Without Outliers: 54.22377622377623
+			6 > 1k
+			most <125
+		--Vietnamese
+			Average Internal: 11.83813202247191
+			Max Internal: 940
+			Average Internal Without Outliers: 9.772622222222223
+			3 > 400
+			most <100
+	-Brazil
+		--English
+			Average Internal: 82.95067264573991
+			Max Internal: 736
+			Average Internal Without Outliers: 67.21627906976744
+			most <100
+		--Portuguese
+			Average Internal: 47.21653211230269
+			Max Internal: 4929
+			Average Internal Without Outliers: 35.977355104338955
+			most <1k
+		--Vietnamese
+			Average Internal: 24.770491803278688
+			Max Internal: 178
+			Average Internal Without Outliers: 18.70689655172414
+			most <25
+	-UK
+		--English
+			Average Internal: 178.95036871323225
+			Max Internal: 14104
+			Average Internal Without Outliers: 139.45489766697548
+			10 >8k
+			most <1500
+		--Portuguese
+			Average Internal: 86.63056812468577
+			Max Internal: 13160
+			Average Internal Without Outliers: 60.58484972398283
+			most <1.5k
+		--Vietnamese
+			Average Internal: 39.93030794165316
+			Max Internal: 5112
+			Average Internal Without Outliers: 27.240609689711487
+			5 >2k
+			most <500
+File Size:
+	-Vietnam
+		--English
+			Average Size: 47485.01671309192
+			Max Size: 597448
+			Average Size Without Outliers: 37617.99710982659
+			10 > 300k
+			most <70k
+			all nonzero
+		--Portuguese
+			Average Size: 48654.41610738255
+			Max Size: 581211
+			Average Size Without Outliers: 37016.8870292887
+			17 >300k
+			most <80k
+		--Vietnamese
+			Max Size: 615488
+			Average Size: 9455.250526685393
+			Average Size Without Outliers: 7449.473091364205
+			4 >300k
+			most <70k
+	-Brazil
+		--English
+			Average Size: 44829.9865470852
+			Max Size: 386223
+			Average Size Without Outliers: 38819.25925925926
+			10 >200k
+			most <50k
+		--Portuguese
+			Average Size: 23155.629697209646
+			Max Size: 1540240
+			Average Size Without Outliers: 18618.659304047385
+			5 > 900k
+			most <300k
+		--Vietnamese
+			Average Size: 26558.344262295082
+			Max Size: 201180
+			Average Size Without Outliers: 18202.224137931036
+			5 >75k
+			most <25k
+	-UK
+		--English
+			Average Size: 80260.75225785069
+			Max Size: 4493544
+			Average Size Without Outliers: 64450.481174380235
+			10 >2m
+			most <500k
+		--Portuguese
+			Average Size: 43437.74379084967
+			Max Size: 5408788
+			Average Size Without Outliers: 32274.056479769974
+			12 >1m
+			most <500k
+		--Vietnamese
+			Average Size: 30864.571042679632
+			Max Size: 1954524
+			Average Size Without Outliers: 21005.296763576524
+			10 >750k
+			most < 125k
